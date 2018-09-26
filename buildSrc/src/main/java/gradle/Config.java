@@ -31,6 +31,7 @@ public class Config {
   public static final String APP_COMPAT = SUPPORT + "appcompat-v7:" + SUPPORT_LIB_VERSION;
   public static final String DESIGN = SUPPORT + "design:" + SUPPORT_LIB_VERSION;
   public static final String RECYCLER_VIEW = SUPPORT + "recyclerview-v7:" + SUPPORT_LIB_VERSION;
+  public static final String ANDROIDX_RECYCLER_VIEW = "androidx.recyclerview:recyclerview:1.0.0";
   public static final String CARD_VIEW = SUPPORT + "cardview-v7:" + SUPPORT_LIB_VERSION;
   public static final String SUPPORT_ANNOTATION =
       SUPPORT + "support-annotations:" + SUPPORT_LIB_VERSION;
