@@ -16,10 +16,10 @@
 
 package com.ahamed.multiviewadapter.util;
 
-import android.support.annotation.Nullable;
-import android.support.annotation.RestrictTo;
-import android.support.v7.util.DiffUtil;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.Nullable;
+import androidx.annotation.RestrictTo;
+import androidx.recyclerview.widget.DiffUtil;
+import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY) public abstract class DiffUtilCallback<M>
@@ -61,7 +61,7 @@ import java.util.List;
    * DiffUtil uses this method to check equality instead of {@link Object#equals(Object)}
    * so that you can change its behavior depending on your UI.
    * For example, if you are using DiffUtil with a
-   * {@link android.support.v7.widget.RecyclerView.Adapter RecyclerView.Adapter}, you should
+   * {@link RecyclerView.Adapter RecyclerView.Adapter}, you should
    * return whether the items' visual representations are the same.
    * <p>
    * This method is called only if {@link #areItemsTheSame(int, int)} returns
@@ -80,7 +80,7 @@ import java.util.List;
    * <p>
    * For example, if you are using DiffUtil with {@link RecyclerView}, you can return the
    * particular field that changed in the item and your
-   * {@link android.support.v7.widget.RecyclerView.ItemAnimator ItemAnimator} can use that
+   * {@link RecyclerView.ItemAnimator ItemAnimator} can use that
    * information to run the correct animation.
    * <p>
    * Default implementation returns {@code null}.

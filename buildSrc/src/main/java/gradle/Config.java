@@ -25,16 +25,11 @@ public class Config {
   public static final String VERSION_NAME = "1.3.0";
   public static final int VERSION_CODE = 130;
 
-  private static final String SUPPORT_LIB_VERSION = "28.0.0";
-  private static final String SUPPORT = "com.android.support:";
-
-  public static final String APP_COMPAT = SUPPORT + "appcompat-v7:" + SUPPORT_LIB_VERSION;
-  public static final String DESIGN = SUPPORT + "design:" + SUPPORT_LIB_VERSION;
-  public static final String RECYCLER_VIEW = SUPPORT + "recyclerview-v7:" + SUPPORT_LIB_VERSION;
-  public static final String ANDROIDX_RECYCLER_VIEW = "androidx.recyclerview:recyclerview:1.0.0";
-  public static final String CARD_VIEW = SUPPORT + "cardview-v7:" + SUPPORT_LIB_VERSION;
-  public static final String SUPPORT_ANNOTATION =
-      SUPPORT + "support-annotations:" + SUPPORT_LIB_VERSION;
+  public static final String APP_COMPAT = "androidx.appcompat:appcompat:1.0.0";
+  public static final String DESIGN = "com.google.android.material:material:1.0.0";
+  public static final String RECYCLER_VIEW = "androidx.recyclerview:recyclerview:1.0.0";
+  public static final String CARD_VIEW = "androidx.cardview:cardview:1.0.0";
+  public static final String SUPPORT_ANNOTATION = "androidx.annotations:annotations:1.0.0";
 
   public static final String USER_ORG = "devahamed";
   public static final String GROUP_ID = "com.github.devahamed";

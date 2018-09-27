@@ -18,7 +18,7 @@ package com.ahamed.sample.expandable.group;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import com.ahamed.multiviewadapter.RecyclerAdapter;
 import com.ahamed.multiviewadapter.util.SimpleDividerDecoration;
 import com.ahamed.sample.common.BaseActivity;

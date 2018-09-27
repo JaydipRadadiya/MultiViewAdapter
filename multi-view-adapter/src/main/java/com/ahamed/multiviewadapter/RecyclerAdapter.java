@@ -16,8 +16,8 @@
 
 package com.ahamed.multiviewadapter;
 
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.helper.ItemTouchHelper;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import com.ahamed.multiviewadapter.annotation.ExpandableMode;
 import com.ahamed.multiviewadapter.util.InfiniteLoadingHelper;
 import java.util.Collections;

@@ -16,7 +16,7 @@
 
 package com.ahamed.multiviewadapter;
 
-import android.databinding.ViewDataBinding;
+import androidx.databinding.ViewDataBinding;
 
 /**
  * ViewHolder which supports the DataBinding

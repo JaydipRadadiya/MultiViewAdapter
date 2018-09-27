@@ -16,8 +16,8 @@
 
 package com.ahamed.multiviewadapter;
 
-import android.support.test.filters.SmallTest;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.filters.SmallTest;
+import androidx.test.runner.AndroidJUnit4;
 import com.ahamed.multiviewadapter.testconfig.DummyOne;
 import com.ahamed.multiviewadapter.testconfig.DummyTwo;
 import java.util.ArrayList;

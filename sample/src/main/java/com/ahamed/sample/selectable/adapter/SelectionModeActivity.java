@@ -18,8 +18,8 @@ package com.ahamed.sample.selectable.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.LinearLayoutManager;
 import android.widget.Toast;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import com.ahamed.multiviewadapter.DataListManager;
 import com.ahamed.multiviewadapter.SelectableAdapter;
 import com.ahamed.multiviewadapter.listener.ItemSelectionChangedListener;

@@ -19,7 +19,7 @@ package com.ahamed.sample.infinite.scroll;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
-import android.support.v7.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import com.ahamed.multiviewadapter.util.InfiniteLoadingHelper;
 import com.ahamed.sample.R;
 import com.ahamed.sample.common.BaseActivity;

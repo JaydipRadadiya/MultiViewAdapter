@@ -16,7 +16,7 @@
 
 package com.ahamed.multiviewadapter.listener;
 
-import android.support.annotation.RestrictTo;
+import androidx.annotation.RestrictTo;
 import com.ahamed.multiviewadapter.ItemViewHolder;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY) public interface ItemActionListener {

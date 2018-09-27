@@ -16,7 +16,7 @@
 
 package com.ahamed.multiviewadapter;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 public final class DataItemManager<M> extends BaseDataManager<M> {
 

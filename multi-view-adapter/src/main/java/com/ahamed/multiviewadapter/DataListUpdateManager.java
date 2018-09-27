@@ -16,8 +16,8 @@
 
 package com.ahamed.multiviewadapter;
 
-import android.support.annotation.NonNull;
-import android.support.v7.util.DiffUtil;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.DiffUtil;
 import com.ahamed.multiviewadapter.util.DiffUtilCallback;
 import com.ahamed.multiviewadapter.util.PayloadProvider;
 import java.util.Collection;

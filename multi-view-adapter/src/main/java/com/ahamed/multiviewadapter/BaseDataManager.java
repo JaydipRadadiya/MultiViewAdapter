@@ -16,10 +16,10 @@
 
 package com.ahamed.multiviewadapter;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.RestrictTo;
-import android.support.v7.util.ListUpdateCallback;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.RestrictTo;
+import androidx.recyclerview.widget.ListUpdateCallback;
 import com.ahamed.multiviewadapter.listener.ItemSelectionChangedListener;
 import com.ahamed.multiviewadapter.listener.MultiSelectionChangedListener;
 import java.util.ArrayList;

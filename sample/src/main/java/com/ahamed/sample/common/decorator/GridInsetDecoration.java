@@ -18,8 +18,8 @@ package com.ahamed.sample.common.decorator;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import androidx.recyclerview.widget.RecyclerView;
 import com.ahamed.multiviewadapter.annotation.PositionType;
 import com.ahamed.multiviewadapter.util.ItemDecorator;
 import com.ahamed.multiviewadapter.util.PositionTypeResolver;

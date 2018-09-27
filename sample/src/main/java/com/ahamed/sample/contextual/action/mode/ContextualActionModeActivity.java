@@ -18,11 +18,11 @@ package com.ahamed.sample.contextual.action.mode;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.view.ActionMode;
-import android.support.v7.widget.LinearLayoutManager;
+import androidx.appcompat.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import com.ahamed.multiviewadapter.BaseViewHolder;
 import com.ahamed.multiviewadapter.DataListManager;
 import com.ahamed.multiviewadapter.SelectableAdapter;

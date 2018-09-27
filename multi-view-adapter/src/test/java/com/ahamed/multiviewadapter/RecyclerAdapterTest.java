@@ -16,7 +16,7 @@
 
 package com.ahamed.multiviewadapter;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import com.ahamed.multiviewadapter.testconfig.DummyOne;
 import com.ahamed.multiviewadapter.testconfig.DummyTwo;
 import com.ahamed.multiviewadapter.util.InfiniteLoadingHelper;

@@ -21,9 +21,9 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
-import android.support.v4.view.ViewCompat;
-import android.support.v7.widget.RecyclerView;
+import androidx.core.view.ViewCompat;
 import android.view.View;
+import androidx.recyclerview.widget.RecyclerView;
 import com.ahamed.multiviewadapter.util.ItemDecorator;
 
 public class ArticleItemDecorator implements ItemDecorator {

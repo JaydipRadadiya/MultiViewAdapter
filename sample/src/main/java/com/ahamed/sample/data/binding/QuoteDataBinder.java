@@ -16,7 +16,7 @@
 
 package com.ahamed.sample.data.binding;
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import com.ahamed.multiviewadapter.ItemDataBinder;

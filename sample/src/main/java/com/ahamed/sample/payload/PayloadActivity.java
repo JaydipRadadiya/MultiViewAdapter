@@ -18,10 +18,10 @@ package com.ahamed.sample.payload;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.LayoutRes;
-import android.support.v7.widget.LinearLayoutManager;
+import androidx.annotation.LayoutRes;
 import android.view.View;
 import android.widget.Toast;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import com.ahamed.multiviewadapter.DataListManager;
 import com.ahamed.multiviewadapter.RecyclerAdapter;
 import com.ahamed.multiviewadapter.util.PayloadProvider;

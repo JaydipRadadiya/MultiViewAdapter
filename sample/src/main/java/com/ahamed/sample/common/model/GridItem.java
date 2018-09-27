@@ -17,8 +17,8 @@
 package com.ahamed.sample.common.model;
 
 import android.graphics.Color;
-import android.support.annotation.ColorInt;
-import android.support.annotation.DrawableRes;
+import androidx.annotation.ColorInt;
+import androidx.annotation.DrawableRes;
 import com.ahamed.sample.R;
 import java.util.Random;
 

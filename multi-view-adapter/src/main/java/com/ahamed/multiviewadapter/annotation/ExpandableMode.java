@@ -16,7 +16,7 @@
 
 package com.ahamed.multiviewadapter.annotation;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import com.ahamed.multiviewadapter.DataGroupManager;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

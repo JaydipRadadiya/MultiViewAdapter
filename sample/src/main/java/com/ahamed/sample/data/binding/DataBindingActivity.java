@@ -18,9 +18,9 @@ package com.ahamed.sample.data.binding;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
 import android.util.Log;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import com.ahamed.sample.common.BaseActivity;
 import com.ahamed.sample.common.adapter.QuoteAdapter;
 import com.ahamed.sample.common.model.Quote;

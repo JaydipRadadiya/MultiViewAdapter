@@ -16,9 +16,9 @@
 
 package com.ahamed.multiviewadapter.annotation;
 
-import android.support.annotation.IntDef;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
+import androidx.annotation.IntDef;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 

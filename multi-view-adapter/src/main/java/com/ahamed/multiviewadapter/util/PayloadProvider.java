@@ -16,7 +16,7 @@
 
 package com.ahamed.multiviewadapter.util;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * A Interface class used by DiffUtil while calculating the diff between two lists.
@@ -45,7 +45,7 @@ public interface PayloadProvider<M> {
    * <p>
    * For example, if you are using DiffUtil with {@link RecyclerView}, you can return the
    * particular field that changed in the item and your
-   * {@link android.support.v7.widget.RecyclerView.ItemAnimator ItemAnimator} can use that
+   * {@link RecyclerView.ItemAnimator ItemAnimator} can use that
    * information to run the correct animation.
    * </p>
    * Default implementation returns {@code null}.

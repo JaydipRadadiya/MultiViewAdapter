@@ -16,7 +16,7 @@
 
 package com.ahamed.multiviewadapter;
 
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.runner.AndroidJUnit4;
 import com.ahamed.multiviewadapter.listener.ItemSelectionChangedListener;
 import com.ahamed.multiviewadapter.listener.MultiSelectionChangedListener;
 import com.ahamed.multiviewadapter.testconfig.DummyOne;

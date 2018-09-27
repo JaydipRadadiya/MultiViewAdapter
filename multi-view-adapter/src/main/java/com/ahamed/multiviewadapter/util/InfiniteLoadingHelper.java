@@ -16,11 +16,11 @@
 
 package com.ahamed.multiviewadapter.util;
 
-import android.support.annotation.LayoutRes;
-import android.support.annotation.RestrictTo;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
+import androidx.annotation.LayoutRes;
+import androidx.annotation.RestrictTo;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import com.ahamed.multiviewadapter.DataItemManager;

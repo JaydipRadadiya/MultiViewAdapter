@@ -16,9 +16,9 @@
 
 package com.ahamed.sample;
 
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import com.ahamed.multiviewadapter.BaseViewHolder;
 import com.ahamed.sample.common.BaseActivity;
 import com.ahamed.sample.complex.ComplexListActivity;

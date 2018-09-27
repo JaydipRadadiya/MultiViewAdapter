@@ -18,7 +18,7 @@ package com.ahamed.sample.complex;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.GridLayoutManager;
+import androidx.recyclerview.widget.GridLayoutManager;
 import com.ahamed.sample.common.BaseActivity;
 import com.ahamed.sample.common.model.Article;
 import com.ahamed.sample.common.model.Bike;

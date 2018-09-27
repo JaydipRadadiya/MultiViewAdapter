@@ -18,7 +18,7 @@ package com.ahamed.sample.swipetodismiss;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import com.ahamed.sample.common.BaseActivity;
 import com.ahamed.sample.common.adapter.MultiListAdapter;
 import com.ahamed.sample.common.model.Flower;

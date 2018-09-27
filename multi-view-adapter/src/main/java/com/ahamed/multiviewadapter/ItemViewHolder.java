@@ -16,8 +16,8 @@
 
 package com.ahamed.multiviewadapter;
 
-import android.support.annotation.RestrictTo;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.RestrictTo;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import com.ahamed.multiviewadapter.listener.ItemActionListener;
 
